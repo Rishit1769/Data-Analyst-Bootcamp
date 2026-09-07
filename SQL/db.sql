@@ -45,3 +45,9 @@ SELECT COUNT(LastName) AS LastNameCount FROM EmployeeDemographics;
 SELECT MAX(Salary) AS MaxSalary FROM EmployeeSalary;
 SELECT MIN(Salary) AS MinSalary FROM EmployeeSalary;
 SELECT AVG(Salary) AS AverageSalary FROM EmployeeSalary;
+
+SELECT * FROM EmployeeDemographics
+WHERE Age > 30 AND Gender = 'Female'; 
+
+SELECT * FROM EmployeeDemographics
+WHERE LastName LIKE 'S%';
