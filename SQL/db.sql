@@ -38,3 +38,10 @@ INSERT INTO EmployeeSalary VALUES
 (1008,'QA Engineer',70000),
 (1009,'Product Manager',88000),
 (1010,'Marketing Specialist',65000);
+
+SELECT * FROM EmployeeDemographics;
+SELECT * FROM EmployeeSalary; 
+SELECT COUNT(LastName) AS LastNameCount FROM EmployeeDemographics;
+SELECT MAX(Salary) AS MaxSalary FROM EmployeeSalary;
+SELECT MIN(Salary) AS MinSalary FROM EmployeeSalary;
+SELECT AVG(Salary) AS AverageSalary FROM EmployeeSalary;
