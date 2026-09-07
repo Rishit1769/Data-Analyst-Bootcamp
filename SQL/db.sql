@@ -51,3 +51,11 @@ WHERE Age > 30 AND Gender = 'Female';
 
 SELECT * FROM EmployeeDemographics
 WHERE LastName LIKE 'S%';
+
+SELECT Gender, Age, COUNT(Gender) FROM EmployeeDemographics GROUP BY Gender, Age;
+
+SELECT Gender, COUNT(Gender) AS CountGender 
+FROM EmployeeDemographics
+WHERE Age > 31
+GROUP BY Gender
+ORDER BY CountGender;
