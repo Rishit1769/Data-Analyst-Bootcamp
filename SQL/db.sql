@@ -7,13 +7,13 @@ CREATE TABLE EmployeeDemographics(
     LastName VARCHAR(50),
     Age INT,
     Gender VARCHAR(50)
-)
+);
 
 CREATE TABLE EmployeeSalary(
     EmployeeID INT,
     JobTitle VARCHAR(50),
     Salary INT
-)
+);
 
 INSERT INTO EmployeeDemographics VALUES
 (1001,'Rishit','Shah',25,'Male'),
