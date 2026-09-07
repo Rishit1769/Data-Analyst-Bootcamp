@@ -26,3 +26,15 @@ INSERT INTO EmployeeDemographics VALUES
 (1008,'Aanya','Mehta',26,'Female'),
 (1009,'Siddharth','Patel',33,'Male'),
 (1010,'Anika','Shah',24,'Female');
+
+INSERT INTO EmployeeSalary VALUES
+(1001,'Software Engineer',80000),
+(1002,'Data Analyst',75000),
+(1003,'Project Manager',90000),
+(1004,'HR Manager',85000),
+(1005,'Business Analyst',78000),
+(1006,'UX Designer',72000),
+(1007,'DevOps Engineer',95000),
+(1008,'QA Engineer',70000),
+(1009,'Product Manager',88000),
+(1010,'Marketing Specialist',65000);
